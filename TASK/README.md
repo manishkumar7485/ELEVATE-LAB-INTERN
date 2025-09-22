@@ -1,4 +1,3 @@
-# ELEVATE-LAB-INTERN
 # TASK #1 -> Java Console Calculator
 * A simple console-based calculator application built with Java as part of a Java Developer Internship Task 1.
 
