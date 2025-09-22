@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Calculator {
 
     // Method for addition
-    public static int add(int num1, int num2) {
+    public static double add(double num1, double num2) {
         return num1 + num2;
     }
 
     // Method for subtraction
-    public static int subtract(int num1, int num2) {
+    public static double subtract(double num1, double num2) {
         return num1 - num2;
     }
 
     // Method for multiplication
-    public static double multiply(int num1, int num2) {
-        return (double) num1 * num2;
+    public static double multiply(double num1, double num2) {
+        return num1 * num2;
     }
 
     // Method for division with zero check
@@ -62,21 +62,21 @@ public class Calculator {
                 }
 
                 System.out.print("Enter first number: ");
-                int num1 = scanner.nextInt();
+                double num1 = scanner.nextDouble();
 
                 System.out.print("Enter second number: ");
-                int num2 = scanner.nextInt();
+                double num2 = scanner.nextDouble();
 
                 double result = 0;
                 String operation = "";
 
                 switch (choice) {
                     case 1:
-                        result = (double) add(num1, num2);
+                        result = add(num1, num2);
                         operation = "+";
                         break;
                     case 2:
-                        result = (double) subtract(num1, num2);
+                        result = subtract(num1, num2);
                         operation = "-";
                         break;
                     case 3:
