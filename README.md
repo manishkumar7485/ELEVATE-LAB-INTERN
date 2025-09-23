@@ -2,3 +2,6 @@
 
 # TASK: #1 - JAVA CONSOLE CALCULATOR
 - - COMPLETION DATE- 22-09-2025
+
+# TASK: #2 - Student Record Management System (Java CLI)
+- - COMPLETION DATE- 23-09-2025
