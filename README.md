@@ -5,3 +5,6 @@
 
 # TASK: #2 - Student Record Management System (Java CLI)
 - - COMPLETION DATE- 23-09-2025
+
+# TASK: #3 - Library Management System (OOP Project)
+- - COMPLETION DATE- 25-09-2025
