@@ -1,4 +1,4 @@
-package Task3;
+package TASK3;
 
 public class Book {
     private String isbn;
