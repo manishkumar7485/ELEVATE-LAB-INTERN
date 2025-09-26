@@ -12,7 +12,7 @@ A simple text-based notes manager application built with Java File I/O operation
 ## Technical Implementation
 
 ### File I/O Operations
-- **FileWriter**: Used for writing notes to file (both append and overwrite modes)
+- **FileWriter**: Used for writing notes to file ```(both append and overwrite modes)```
 - **BufferedReader**: Used for efficient reading of notes from file
 - **Try-with-resources**: Automatic resource management for file handles
 

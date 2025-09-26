@@ -4,9 +4,9 @@
 
 ### 1. Difference between FileReader and BufferedReader?
 *** Answer: ***
-```FileReader:``` Reads character by character from a file. It's a low-level reader that performs unbuffered input.
+*** FileReader: *** Reads character by character from a file. It's a ````low-level``` reader that performs unbuffered input.
 
-```BufferedReader:``` Wraps around FileReader and uses a buffer to read larger chunks of data at once, making it more efficient for reading large files.
+*** BufferedReader: *** Wraps around FileReader and uses a buffer to read larger chunks of data at once, making it ``` more efficient ``` for reading large files.
 
 *** Example: ***
 
