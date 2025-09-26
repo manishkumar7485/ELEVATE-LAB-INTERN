@@ -43,16 +43,16 @@ It allows basic management of Books and Users, with functionality for issuing an
 
 *** Sample Usage: ***
 ```java
-📚 === LIBRARY MANAGEMENT SYSTEM ===
-1. 📖 Display All Books
-2. 👥 Display All Users
-3. ➕ Add New Book
-4. 👤 Add New User
-5. 📥 Issue Book to User
-6. 📤 Return Book from User
-7. 🔍 Search Book by ISBN
-8. 👀 View User's Issued Books
-9. 🚪 Exit
+=== LIBRARY MANAGEMENT SYSTEM ===
+1.  Display All Books
+2.  Display All Users
+3.  Add New Book
+4.  Add New User
+5.  Issue Book to User
+6.  Return Book from User
+7.  Search Book by ISBN
+8.  View User's Issued Books
+9.  Exit
 Enter your choice (1-9): 1
 
 📚 === ALL BOOKS IN LIBRARY ===

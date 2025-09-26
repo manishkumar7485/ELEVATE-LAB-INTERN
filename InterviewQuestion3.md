@@ -4,7 +4,7 @@
 
 ### 1. What is Abstraction?  
 **Answer:**  
-Abstraction is the process of hiding implementation details and showing only the essential features of an object.  
+``` Abstraction``` is the process of hiding implementation details and showing only the essential features of an object.  
 In Java, abstraction can be achieved using **abstract classes** and **interfaces**.  
 For example, when you call `car.start()`, you don’t need to know how the engine starts internally.
 
