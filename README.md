@@ -11,3 +11,6 @@
 
 # TASK: #4 - File I/O Manager 
 - - COMPLETION DATE- 26-09-2025
+
+# Task #5: Bank Account Simulation
+- - COMPLETION DATE- 30-09-2025
