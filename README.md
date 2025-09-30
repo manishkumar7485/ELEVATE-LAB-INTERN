@@ -14,3 +14,6 @@
 
 # Task #5: Bank Account Simulation
 - - COMPLETION DATE- 30-09-2025
+
+# Task #6: To-Do App - Java Swing Technology
+- - COMPLETION DATE- 01-09-2025
