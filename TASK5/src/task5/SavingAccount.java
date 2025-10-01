@@ -18,8 +18,12 @@ class SavingAccount extends Account {
     @Override
     public void calculateInterest() {
         double interest = balance * interestRate / 100;
-        System.out.println("Interest calculated: ₹" + interest);
-        deposit(interest);
+        // Format to 2 decimal places
+        String formattedInterest = String.format("%.2f", interest);
+        double roundedInterest = Double.parseDouble(formattedInterest);
+    
+        System.out.println("Interest calculated: ₹" + roundedInterest);
+        deposit(roundedInterest);
         System.out.println("Interest added to account!");
     }
 

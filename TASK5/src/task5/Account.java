@@ -70,7 +70,8 @@ public class Account {
     }
     
     public void calculateInterest(){
-        System.out.println("Interest calculation not available for basic amount.");
+        System.out.println("Interest calculation not available for basic account.");
+        System.out.println("Current accounts typically don't earn interest but offer overdraft facilities.");
     }
     
     
@@ -88,6 +89,16 @@ public class Account {
                 System.out.println((i+1)+". "+transactionHistory.get(i));
             }
         }
+    }
+    
+    @Override
+    public String toString() {
+        return "Account{" +
+           "number='" + accountNumber + '\'' +
+           ", holder='" + accountHolder + '\'' +
+           ", balance=RS. " + String.format("%.2f", balance) +
+           ", type=" + getClass().getSimpleName() +
+           '}';
     }
     
     
